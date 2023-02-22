@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.844);  
+    height: 60px;
+    
+    
+}
+.header-left{
+    padding: 16px 186px;
+        
+}
+.header-left a{
+    color: white;
+    font-size: 26px;
+}
+
+nav{
+    padding: 22px 140px;
+    word-spacing: 20px;  
+}
+nav a {
+    color: white;
+    font-size:18px ;
+}
+.full-width-back{
+
+width: 100%;
+height: 450px;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+color: white;
+text-transform: capitalize;
+
+
+}
+.full-width-back img {
+    width: 250px;
+    margin-left: 600px;
+    border-radius: 100px;
+    margin-top: 120px;
+}
+.full-width-back h1{
+    
+    font-size: 30px;
+    padding-left: 620px;
+    margin-top: 20px;
+}
+.full-width-back p {
+
+    padding-left: 640px;
+    margin-top: 6px;
+    font-size: 16px;
+}
+.content{
+    width: 600px;
+    padding:100px 450px;
+}
+.content h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+.content .p-top{
+font-size: 20px;
+font-weight: 200;
+margin-top: 8px;
+
+}
+.content .p-bottom{
+    font-size: 16px;
+    margin-top: 14px;
+}
+.background-sea{
+   
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.844);  
+    height: 100px;
+
+}
+.footer h3{
+    text-align: center;
+    padding-top: 45px;
+    color: white
+    ;
+}
+   
